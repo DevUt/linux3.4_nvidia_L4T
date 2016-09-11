@@ -335,6 +335,21 @@ obj-${CONFIG_TEGRA_ISOMGR}              += isomgr.o
 
 obj-${CONFIG_TEGRA_NVDUMPER}            += nvdumper.o
 
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavor-panel.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-pinmux.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-sdhci.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-memory.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-power.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-baseband.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-kbc.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-sensors.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-audio.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-rfkill.o
+obj-${CONFIG_MACH_ENDEAVORU}               += htc_bdaddress.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-pinmux.o
+obj-${CONFIG_MACH_ENDEAVORU}               += tegra_flashlight.o
+obj-${CONFIG_MACH_ENDEAVORU}               += board-endeavoru-camera.o
 obj-${CONFIG_MACH_ROTH}                 += board-roth.o
 obj-${CONFIG_MACH_ROTH}                 += board-roth-memory.o
 obj-${CONFIG_MACH_ROTH}                 += board-roth-pinmux.o
